@@ -1,0 +1,75 @@
+<IceBurg>
+	<append xpath="/recipes">
+
+		<recipe name="resourceIceburgSteelRepairKit" count="1">
+			<ingredient name="meleeToolAllSteelParts" count="3"/>
+			<ingredient name="resourceForgedSteel" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+		</recipe>
+
+		<recipe name="resourceIceburgMotorRepairKit" count="1">
+			<ingredient name="resourceForgedSteel" count="1"/>
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+
+		<recipe name="resourceIceburgPistolRepairKit" count="1">
+			<ingredient name="gunHandgunT1PistolParts" count="3"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+
+		<recipe name="resourceIceburgShotgunRepairKit" count="1">
+			<ingredient name="gunShotgunT1DoubleBarrelParts" count="3"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+
+		<recipe name="resourceIceburgRifleRepairKit" count="1">
+			<ingredient name="gunRifleT1HuntingRifleParts" count="3"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+
+		<recipe name="resourceIceburgMachineGunRepairKit" count="1">
+			<ingredient name="gunMGT1AK47Parts" count="3"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceOil" count="1"/>
+		</recipe>
+
+		<recipe name="resourceIceburgNonmetalArmorRepairKit" count="1">
+			<ingredient name="resourceLeather" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+
+		<recipe name="resourceIceburgMilitaryArmorRepairKit" count="1">
+			<ingredient name="armorMilitarySetParts" count="2"/>
+			<ingredient name="resourceMilitaryFiber" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+		</recipe>
+		
+		<recipe name="resourceIceburgMetalArmorRepairKit" count="1">
+			<ingredient name="resourceForgedSteel" count="1"/>
+			<ingredient name="resourceSewingKit" count="1"/>
+			<ingredient name="resourceLeather" count="1"/>
+			<ingredient name="resourceCloth" count="1"/>
+		</recipe>
+
+		<recipe name="resourceIceburgBowRepairKit" count="1">
+			<ingredient name="gunBowT1WoodenBowParts" count="2"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceLeather" count="1"/>
+		</recipe>
+
+	</append>
+</IceBurg>

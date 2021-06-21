@@ -1,0 +1,16 @@
+<IceBurg>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='tools']">
+	<item name="resourceIceburgSteelRepairKit" count="1,4"/>
+	<item name="resourceIceburgMotorRepairKit" count="1,4"/>
+	<item name="resourceIceburgPistolRepairKit" count="1,4"/>
+	<item name="resourceIceburgShotgunRepairKit" count="1,4"/>
+	<item name="resourceIceburgRifleRepairKit" count="1,4"/>
+	<item name="resourceIceburgMachineGunRepairKit" count="1,4"/>
+	<item name="resourceIceburgBowRepairKit" count="1,4"/>
+	<item name="resourceIceburgNonmetalArmorRepairKit" count="1,4"/>
+	<item name="resourceIceburgMetalArmorRepairKit" count="1,4"/>
+	<item name="resourceIceburgMilitaryArmorRepairKit" count="1,4"/>
+</append>
+
+</IceBurg>

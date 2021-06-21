@@ -1,0 +1,57 @@
+<IceBurg>
+
+	<append xpath="/lootcontainers/lootgroup[@name='workbenchLoot']">
+		<item name="resourceIceburgPistolRepairKit"/>
+		<item name="resourceIceburgMotorRepairKit"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit"/>
+		<item name="resourceIceburgMetalArmorRepairKit"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit"/>
+		<item name="resourceIceburgSteelRepairKit"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='workingStiffsSub']">
+		<item name="resourceIceburgPistolRepairKit" count="1,4"/>
+		<item name="resourceIceburgMotorRepairKit" count="1,4"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,4"/>
+		<item name="resourceIceburgMetalArmorRepairKit" count="1,4"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit" count="1,4"/>
+		<item name="resourceIceburgSteelRepairKit" count="1,4"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='50']">
+		<item name="resourceIceburgPistolRepairKit"/>
+		<item name="resourceIceburgMotorRepairKit"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit"/>
+		<item name="resourceIceburgMetalArmorRepairKit"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit"/>
+		<item name="resourceIceburgSteelRepairKit"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='90']">
+		<item name="resourceIceburgPistolRepairKit"/>
+		<item name="resourceIceburgMotorRepairKit"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit"/>
+		<item name="resourceIceburgMetalArmorRepairKit"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit"/>
+		<item name="resourceIceburgSteelRepairKit"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='124']">
+		<item name="resourceIceburgPistolRepairKit"/>
+		<item name="resourceIceburgMotorRepairKit"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit"/>
+		<item name="resourceIceburgMetalArmorRepairKit"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit"/>
+		<item name="resourceIceburgSteelRepairKit"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootcontainer[@id='125']">
+		<item name="resourceIceburgPistolRepairKit"/>
+		<item name="resourceIceburgMotorRepairKit"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit"/>
+		<item name="resourceIceburgMetalArmorRepairKit"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit"/>
+		<item name="resourceIceburgSteelRepairKit"/>
+	</append>
+	
+</IceBurg>
