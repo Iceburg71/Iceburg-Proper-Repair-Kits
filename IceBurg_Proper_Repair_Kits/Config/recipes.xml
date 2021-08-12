@@ -1,7 +1,7 @@
 <IceBurg>
 	<append xpath="/recipes">
 
-		<recipe name="resourceIceburgSteelRepairKit" count="1">
+		<recipe name="resourceIceburgSteelToolRepairKit" count="1">
 			<ingredient name="meleeToolAllSteelParts" count="3"/>
 			<ingredient name="resourceForgedSteel" count="1"/>
 			<ingredient name="resourceDuctTape" count="1"/>

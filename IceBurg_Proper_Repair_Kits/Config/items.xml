@@ -1,8 +1,8 @@
 <IceBurg>
 	<append xpath="/items">
-	
+
 		<!-- Steel Repair Kit for tools that are made with forged steel -->
-		<item name="resourceIceburgSteelRepairKit">
+		<item name="resourceIceburgSteelToolRepairKit">
 			<property name="HoldType" value="45"/>
 			<property name="Tags" value="junk"/>
 			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
@@ -10,7 +10,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="tool"/>
@@ -27,7 +27,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="electric_generator"/>
@@ -44,7 +44,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="pistol"/>
@@ -61,7 +61,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="shotgun"/>
@@ -78,7 +78,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="rifle"/>
@@ -95,7 +95,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="gunsmithing"/>
@@ -112,7 +112,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="archery"/>
@@ -129,7 +129,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="armor_leather"/>
@@ -146,7 +146,7 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="armor_iron"/>
@@ -163,53 +163,80 @@
 			<property name="Material" value="Msteel"/>
 			<property name="Stacknumber" value="25"/> 
 			<property name="EconomicValue" value="186"/>
-			<property name="RepairTime" value="3"/>
+			<property name="RepairTime" value="9"/>
 			<property name="RepairAmount" value="32000"/>
 			<property name="Group" value="Resources"/>
 			<property name="ItemTypeIcon" value="trophy"/>
 			<property name="CustomIcon" value="resourceRepairKit"/>
 			<property name="CustomIconTint" value="d700ff"/>		
 		</item>
-		
+
 	</append>
+
+	<!-- Fix repair time and amounts for certain parts -->	
+	<insertAfter xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnucklesParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammerParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnBatonT2StunBatonParts']/property[@name='Material' and @value='MmeleeWpnBatonParts']">
+			<property name="EconomicValue" value="200"/>
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnClubT3SteelClubParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='meleeWpnBladeT3MacheteParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+	<insertAfter xpath="/items/item[@name='gunExplosivesT3RocketLauncherParts']/property[@name='EconomicValue' and @value='200']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+
 
 <!-- TOOLS -->	
 	<!-- Steel Tool Parts Repair Items -->
 	<insertAfter xpath="/items/item[@name='meleeToolAxeT2SteelAxe']/property[@name='EconomicValue' and @value='700']">
-		<property name="RepairTools" value="resourceIceburgSteelRepairKit"/>
+		<property name="RepairTools" value="resourceIceburgSteelToolRepairKit"/>
 	</insertAfter>
-	<set xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']/@value">resourceIceburgSteelRepairKit</set>
-	<set xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='RepairTools']/@value">resourceIceburgSteelRepairKit</set>
-	<set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/property[@name='RepairTools']/@value">resourceIceburgSteelRepairKit</set>
-	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='RepairTools']/@value">resourceIceburgSteelRepairKit</set>
-	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']/@value">resourceIceburgSteelRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='RepairTools']/@value">resourceIceburgSteelToolRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='RepairTools']/@value">resourceIceburgSteelToolRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/property[@name='RepairTools']/@value">resourceIceburgSteelToolRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='RepairTools']/@value">resourceIceburgSteelToolRepairKit</set>
 
 	<!-- Motor Repair Kit Repair Items -->
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='RepairTools']/@value">resourceIceburgMotorRepairKit</set>
 	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='RepairTools']/@value">resourceIceburgMotorRepairKit</set>
 	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='RepairTools']/@value">resourceIceburgMotorRepairKit</set>
 	<set xpath="/items/item[@name='smallEngine']/property[@name='RepairTools']/@value">resourceIceburgMotorRepairKit</set>
 
 <!-- Melee Weapons -->
-	<!-- Steel Spear Parts Repair Items -->
+	<!-- Steel Spear -->
 	<insertAfter xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/property[@name='EconomicValue' and @value='700']">
 		<property name="RepairTools" value="meleeWpnSpearT3SteelSpearParts"/>
 	</insertAfter>
-
-	<!-- Steel Knuckles Parts Repair Items -->
+	<!-- Steel Knuckles -->
 	<insertAfter xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']/property[@name='HoldType' and @value='79']">
 		<property name="RepairTools" value="meleeWpnKnucklesT3SteelKnucklesParts"/>
 	</insertAfter>
-
-	<!-- Steel Sledge Parts Repair Items -->
+	<!-- Steel Sledge -->
 	<set xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='RepairTools']/@value">meleeWpnSledgeT3SteelSledgehammerParts</set>
-
-	<!-- Stun Baton Parts Repair Items -->
+	<!-- Steel Stun Baton -->
 	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='RepairTools']/@value">meleeWpnBatonT2StunBatonParts</set>
-
-	<!-- Steel Club Parts Repair Items -->
+	<!-- Steel Club -->
 	<set xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='RepairTools']/@value">meleeWpnClubT3SteelClubParts</set>
-
-	<!-- Machete Parts Repair Items -->
+	<!-- Steel Machete -->
 	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='RepairTools']/@value">meleeWpnBladeT3MacheteParts</set>
 
 <!-- Bows -->

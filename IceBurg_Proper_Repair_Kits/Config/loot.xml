@@ -1,57 +1,90 @@
 <IceBurg>
+<!-- Remove the normal repair kit so it can be added back in with diminished counts -->
+	<remove xpath="/lootcontainers/lootgroup[@name='workbenchLoot']/property[@name='resourceRepairKit']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='automotive']/property[@name='resourceRepairKit']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='workingStiffsSub']/property[@name='resourceRepairKit']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='50']/property[@name='resourceRepairKit']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='90']/property[@name='resourceRepairKit']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='124']/property[@name='resourceRepairKit']"/>
+	<remove xpath="/lootcontainers/lootcontainer[@id='125']/property[@name='resourceRepairKit']"/>
 
+<!-- Add in all of the repair kits where normal repair kits are found -->
+<!-- Workbenches -->
 	<append xpath="/lootcontainers/lootgroup[@name='workbenchLoot']">
-		<item name="resourceIceburgPistolRepairKit"/>
-		<item name="resourceIceburgMotorRepairKit"/>
-		<item name="resourceIceburgMilitaryArmorRepairKit"/>
-		<item name="resourceIceburgMetalArmorRepairKit"/>
-		<item name="resourceIceburgNonmetalArmorRepairKit"/>
-		<item name="resourceIceburgSteelRepairKit"/>
+		<item name="resourceRepairKit" count="1,2"/>
+		<item name="resourceIceburgPistolRepairKit" count="1,2"/>
+		<item name="resourceIceburgMotorRepairKit" count="1,2"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgMetalArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgSteelToolRepairKit" count="1,2"/>
 	</append>
 
+<!-- Automotive -->
+	<append xpath="/lootcontainers/lootgroup[@name='automotive']">
+		<item name="resourceIceburgMotorRepairKit" count="1,2"/>
+	</append>
+
+<!-- Working Stiff Boxes -->
 	<append xpath="/lootcontainers/lootgroup[@name='workingStiffsSub']">
-		<item name="resourceIceburgPistolRepairKit" count="1,4"/>
-		<item name="resourceIceburgMotorRepairKit" count="1,4"/>
-		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,4"/>
-		<item name="resourceIceburgMetalArmorRepairKit" count="1,4"/>
-		<item name="resourceIceburgNonmetalArmorRepairKit" count="1,4"/>
-		<item name="resourceIceburgSteelRepairKit" count="1,4"/>
+		<item name="resourceIceburgPistolRepairKit" count="1,2"/>
+		<item name="resourceIceburgMotorRepairKit" count="1,2"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgMetalArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgSteelToolRepairKit" count="1,2"/>
 	</append>
 
+<!-- Shotgun Mesiah -->
 	<append xpath="/lootcontainers/lootcontainer[@id='50']">
-		<item name="resourceIceburgPistolRepairKit"/>
-		<item name="resourceIceburgMotorRepairKit"/>
-		<item name="resourceIceburgMilitaryArmorRepairKit"/>
-		<item name="resourceIceburgMetalArmorRepairKit"/>
-		<item name="resourceIceburgNonmetalArmorRepairKit"/>
-		<item name="resourceIceburgSteelRepairKit"/>
+		<item name="resourceIceburgPistolRepairKit" count="1,2" prob="0.1"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,2" prob="0.1"/>
+		<item name="resourceIceburgMetalArmorRepairKit" count="1,2" prob="0.1"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit" count="1,2" prob="0.1"/>
 	</append>
 
+<!-- car parts shipping crate -->
 	<append xpath="/lootcontainers/lootcontainer[@id='90']">
-		<item name="resourceIceburgPistolRepairKit"/>
-		<item name="resourceIceburgMotorRepairKit"/>
-		<item name="resourceIceburgMilitaryArmorRepairKit"/>
-		<item name="resourceIceburgMetalArmorRepairKit"/>
-		<item name="resourceIceburgNonmetalArmorRepairKit"/>
-		<item name="resourceIceburgSteelRepairKit"/>
+		<item name="resourceRepairKit" count="1,2" prob=".3"/>
+		<item name="resourceIceburgMotorRepairKit" count="1,2" prob=".3"/>
 	</append>
 
+<!-- cntRollingToolBoxClosed -->
 	<append xpath="/lootcontainers/lootcontainer[@id='124']">
-		<item name="resourceIceburgPistolRepairKit"/>
-		<item name="resourceIceburgMotorRepairKit"/>
-		<item name="resourceIceburgMilitaryArmorRepairKit"/>
-		<item name="resourceIceburgMetalArmorRepairKit"/>
-		<item name="resourceIceburgNonmetalArmorRepairKit"/>
-		<item name="resourceIceburgSteelRepairKit"/>
+		<item name="resourceRepairKit" count="1,2"/>
+		<item name="resourceIceburgPistolRepairKit" count="1,2"/>
+		<item name="resourceIceburgMotorRepairKit" count="1,2"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgMetalArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgSteelToolRepairKit" count="1,2"/>
 	</append>
 
+<!-- cntToolBoxClosed -->
 	<append xpath="/lootcontainers/lootcontainer[@id='125']">
-		<item name="resourceIceburgPistolRepairKit"/>
-		<item name="resourceIceburgMotorRepairKit"/>
-		<item name="resourceIceburgMilitaryArmorRepairKit"/>
-		<item name="resourceIceburgMetalArmorRepairKit"/>
-		<item name="resourceIceburgNonmetalArmorRepairKit"/>
-		<item name="resourceIceburgSteelRepairKit"/>
+		<item name="resourceRepairKit" count="1,2"/>
+		<item name="resourceIceburgPistolRepairKit" count="1,2"/>
+		<item name="resourceIceburgMotorRepairKit" count="1,2"/>
+		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgMetalArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgNonmetalArmorRepairKit" count="1,2"/>
+		<item name="resourceIceburgSteelToolRepairKit" count="1,2"/>
 	</append>
+
+<!-- add in repair kits in some spots where armor is found. -->
+<!--
+lootgroup name="groupWeaponsBagLoot"
+34 - Supply Crate General, the normal airdrop
+40 - military munitions ammo box
+43 - Lockers
+73 - EntityLootContainerBoss, rare random drop off bosses
+83 - Army Truck
+100 - Weapon bag small
+101 - weaon bag large
+137 - gun rack wall armor
+138 - gun rack wall weapons
+-->
+
+
 	
 </IceBurg>
