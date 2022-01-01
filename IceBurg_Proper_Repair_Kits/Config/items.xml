@@ -260,7 +260,7 @@
 
 	<!-- Hunting Rifle Parts Repair Items -->
 	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='RepairTools']/@value">resourceIceburgRifleRepairKit</set>
-	<set xpath="/items/item[@name='gunRifleT2MarksmanRifle']/property[@name='RepairTools']/@value">resourceIceburgRifleRepairKit</set>
+	<set xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='RepairTools']/@value">resourceIceburgRifleRepairKit</set>
 	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='RepairTools']/@value">resourceIceburgRifleRepairKit</set>
 
 	<!-- MGT Rifle Parts Repair Items -->
