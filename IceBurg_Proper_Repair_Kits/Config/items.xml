@@ -18,7 +18,7 @@
 			<property name="CustomIconTint" value="ff8d00"/>
 		</item>
 
-		<!-- Motor Repair Kit for Motors and some tools -->
+	<!-- Motor Repair Kit for Motors and som tools -->
 		<item name="resourceIceburgMotorRepairKit">
 			<property name="HoldType" value="45"/>
 			<property name="Tags" value="junk"/>
