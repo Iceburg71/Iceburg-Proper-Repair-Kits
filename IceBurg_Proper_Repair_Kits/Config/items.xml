@@ -174,7 +174,11 @@
 	</append>
 
 	<!-- Fix repair time and amounts for certain parts -->	
-	<insertAfter xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']/property[@name='EconomicValue' and @value='200']">
+	<insertAfter xpath="/items/item[@name='gunMGT1AK47Parts']/property[@name='Stacknumber' and @value='50']">
+			<property name="RepairTime" value="6"/>
+			<property name="RepairAmount" value="32000"/>
+	</insertAfter>
+<!--	<insertAfter xpath="/items/item[@name='meleeWpnSpearT3SteelSpearParts']/property[@name='EconomicValue' and @value='200']">
 			<property name="RepairTime" value="6"/>
 			<property name="RepairAmount" value="32000"/>
 	</insertAfter>
@@ -203,7 +207,7 @@
 			<property name="RepairTime" value="6"/>
 			<property name="RepairAmount" value="32000"/>
 	</insertAfter>
-
+-->
 
 <!-- TOOLS -->	
 	<!-- Steel Tool Parts Repair Items -->
