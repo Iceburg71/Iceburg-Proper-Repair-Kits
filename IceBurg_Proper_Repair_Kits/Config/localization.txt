@@ -27,6 +27,8 @@ armorHeavyGroupDesc,items,Clothes,"Heavy armor will encumber you but provides go
 armorLeatherGroupDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Nonmetal Armor Repair Kit.\nScrap to leather."
 armorMilitaryGroupDesc,items,Clothes,"Light armor will encumber you a little and provides some protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Military Armor Repair Kit.\nScrap to military armor parts."
 armorMilitaryStealthBootsDesc,items,Clothes,"These military stealth boots have no stamina use penalty and muffle noise from movement.\n\nRepair with a Military Armor Repair Kit.\nScrap to military armor parts.."
+armorScrapDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Metal Armor Repair Kit.\nScrap to Iron."
+armorSteelGroupDesc,items,Clothes,"Heavy armor will encumber you but provides good protection against damage.\nIt will not protect you from the weather.\n\nRepair with a Metal Armor Repair Kit.\nScrap to steel armor parts."
 
 meleeWpnClubT3SteelClubDesc,items,Melee,"Steel clubs are very durable and hard-hitting.\n\nRepair with Steel Club Parts.\nScrap to Steel Club Parts."
 meleeWpnKnucklesT3SteelKnucklesDesc,items,Melee,"Protect your hands and put some weight into those swings. These blades can also be useful for gutting animals.\n\nRepair with Steel Knuckles parts.\nScrap to Steel Knuckles parts."
@@ -60,7 +62,7 @@ gunBowT3CompoundCrossbowDesc,items,Gun,"A compound crossbow is slow to reload bu
 gunExplosivesT3RocketLauncherDesc,items,Gun,"A Rocket Launcher shoots rocket propelled grenades.\n\nRepair with Rocket Launcher parts.\nScrap to Rocket Launcher parts."
 
 meleeToolAxeT2SteelAxeDesc,items,Tool,"The steel axe has a durable blade and is great for harvesting wood.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
-meleeToolPickT2SteelPickaxe,items,Tool,"The steel pickaxe is best for breaking stone and harvesting minerals.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
+meleeToolPickT2SteelPickaxeDesc,items,Tool,"The steel pickaxe is best for breaking stone and harvesting minerals.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
 meleeToolRepairT3NailgunDesc,items,Tool,"The nail gun is the best tool for repairing and upgrading base walls and not a bad weapon to boot if you have nails.\n\nRepair with a Steel Repair Kit.\nScrap to Mechanical parts."
 meleeToolShovelT2SteelShovelDesc,items,Tool,"The steel shovel is very durable and the ideal tool for digging through earth, sand or snow.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool parts."
 meleeToolSalvageT2RatchetDesc,items,Tool,"Great for disassembling mechanical devices like cars, air conditioners and more.\n\nRepair with a Steel Repair Kit.\nScrap to Steel Tool Parts."
