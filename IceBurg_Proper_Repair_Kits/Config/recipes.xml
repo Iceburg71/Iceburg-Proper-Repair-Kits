@@ -1,6 +1,19 @@
 <IceBurg>
-	<append xpath="/recipes">
+<!-- Modify the recipe for the vanila resource kit for vehicles-->
 
+<!--	<insertAfter xpath="/recipes/recipe[@name='resourceRepairKit']/property[@name='Group' and @value='Resources']">
+			<ingredient name="resourceOil" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+			<ingredient name="resourceElectricParts" count="1"/>
+	</insertAfter>
+-->
+	<append xpath="//recipe[@name='resourceRepairKit']">
+		<ingredient name="resourceOil" count="1"/>
+		<ingredient name="resourceMechanicalParts" count="1"/>
+		<ingredient name="resourceElectricParts" count="1"/>
+	</append>
+
+	<append xpath="/recipes">
 		<recipe name="resourceIceburgSteelToolRepairKit" count="1">
 			<ingredient name="meleeToolAllSteelParts" count="3"/>
 			<ingredient name="resourceForgedSteel" count="1"/>
@@ -69,6 +82,11 @@
 			<ingredient name="gunBowT1WoodenBowParts" count="2"/>
 			<ingredient name="resourceDuctTape" count="1"/>
 			<ingredient name="resourceLeather" count="1"/>
+		</recipe>
+
+		<recipe name="resourceIceburgGeneralRepairKit" count="1">
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
 		</recipe>
 
 	</append>

@@ -8,6 +8,7 @@
 <!-- Workbenches -->
 	<append xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot03']">
 		<item name="resourceRepairKit" count="1,2"/>
+		<item name="resourceIceburgGeneralRepairKit" count="1,2"/>
 		<item name="resourceIceburgPistolRepairKit" count="1,2"/>
 		<item name="resourceIceburgMotorRepairKit" count="1,2"/>
 		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,2"/>
@@ -18,6 +19,7 @@
 
 <!-- Automotive -->
 	<append xpath="/lootcontainers/lootgroup[@name='groupCarWeaponsTools']">
+		<item name="resourceRepairKit" count="1,2"/>
 		<item name="resourceIceburgMotorRepairKit" count="1,2"/>
 	</append>
 
@@ -41,13 +43,13 @@
 
 <!-- car parts shipping crate -->
 	<append xpath="/lootcontainers/lootcontainer[@id='90']">
-		<item name="resourceRepairKit" count="1,2" prob=".3"/>
+		<item name="resourceIceburgGeneralRepairKit" count="1,2" prob=".3"/>
 		<item name="resourceIceburgMotorRepairKit" count="1,2" prob=".3"/>
 	</append>
 
 <!-- cntRollingToolBoxClosed -->
 	<append xpath="/lootcontainers/lootcontainer[@id='124']">
-		<item name="resourceRepairKit" count="1,2"/>
+		<item name="resourceIceburgGeneralRepairKit" count="1,2"/>
 		<item name="resourceIceburgPistolRepairKit" count="1,2"/>
 		<item name="resourceIceburgMotorRepairKit" count="1,2"/>
 		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,2"/>
@@ -58,7 +60,7 @@
 
 <!-- cntToolBoxClosed -->
 	<append xpath="/lootcontainers/lootcontainer[@id='125']">
-		<item name="resourceRepairKit" count="1,2"/>
+		<item name="resourceIceburgGeneralRepairKit" count="1,2"/>
 		<item name="resourceIceburgPistolRepairKit" count="1,2"/>
 		<item name="resourceIceburgMotorRepairKit" count="1,2"/>
 		<item name="resourceIceburgMilitaryArmorRepairKit" count="1,2"/>

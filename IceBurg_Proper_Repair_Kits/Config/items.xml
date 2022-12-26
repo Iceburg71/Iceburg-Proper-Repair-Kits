@@ -1,5 +1,20 @@
 <IceBurg>
 	<append xpath="/items">
+	<!-- Add New Repair Kits -->
+		<!-- General Repair Kit for basic stuff -->
+		<item name="resourceIceburgGeneralRepairKit">
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Msteel"/>
+			<property name="Stacknumber" value="25"/> 
+			<property name="EconomicValue" value="186"/>
+			<property name="RepairTime" value="9"/>
+			<property name="RepairAmount" value="32000"/>
+			<property name="Group" value="Resources"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+		</item>
 
 		<!-- Steel Repair Kit for tools that are made with forged steel -->
 		<item name="resourceIceburgSteelToolRepairKit">
@@ -18,7 +33,7 @@
 			<property name="CustomIconTint" value="ff8d00"/>
 		</item>
 
-	<!-- Motor Repair Kit for Motors and som tools -->
+	<!-- Motor Repair Kit for Motors and some tools -->
 		<item name="resourceIceburgMotorRepairKit">
 			<property name="HoldType" value="45"/>
 			<property name="Tags" value="junk"/>
@@ -170,8 +185,15 @@
 			<property name="CustomIcon" value="resourceRepairKit"/>
 			<property name="CustomIconTint" value="d700ff"/>		
 		</item>
-
 	</append>
+
+<!-- Fix resourceRepairKit properties for vehicles -->
+	<insertAfter xpath="/items/item[@name='resourceRepairKit']/property[@name='Group' and @value='Resources']">
+			<property name="ItemTypeIcon" value="motorcycle"/>
+			<property name="CustomIcon" value="resourceRepairKit"/>
+			<property name="CustomIconTint" value="42f5d7"/>
+	</insertAfter>
+	
 
 	<!-- Fix repair time and amounts for certain parts -->	
 	<insertAfter xpath="/items/item[@name='gunMGT1AK47Parts']/property[@name='Stacknumber' and @value='50']">
@@ -299,6 +321,22 @@
 
 	<!-- Military Set Part Repair Items -->
 	<set xpath="/items/item[@name='armorMilitaryMaster']/property[@name='RepairTools']/@value">resourceIceburgMilitaryArmorRepairKit</set>
+
+<!-- Basic Items -->
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT1CandyKnife']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnClubT1BaseballBat']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnClubT1CandyClub']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnSpearT1IronSpear']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeWpnKnucklesT1IronKnuckles']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='meleeToolFarmT1IronHoe']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
+	<set xpath="/items/item[@name='armorFootballHelmet']/property[@name='RepairTools']/@value">resourceIceburgGeneralRepairKit</set>
 
 </IceBurg>
 

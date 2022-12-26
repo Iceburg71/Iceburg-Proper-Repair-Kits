@@ -1,6 +1,7 @@
 <IceBurg>
 
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='tools']">
+	<item name="resourceIceburgGeneralRepairKit" count="1,4"/>
 	<item name="resourceIceburgSteelToolRepairKit" count="1,4"/>
 	<item name="resourceIceburgMotorRepairKit" count="1,4"/>
 	<item name="resourceIceburgPistolRepairKit" count="1,4"/>
